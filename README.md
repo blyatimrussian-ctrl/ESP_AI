@@ -1,3 +1,12 @@
+<!-- 
+  DEV NOTE: 
+  If I see one more 'error code:400' i will skin this stupid ESP32 S3
+  N16R8 first by the pcb then split this in half. 
+  The N16R8 has 8MB of PSRAM and yet my brain still runs out of memory 
+  trying to remember why I Always put A false Endpoint or Non existing AI models. 
+  God Help Me i am suffering.
+-->
+
 ESP_AI 🚀
 This repository provides a streamlined implementation for running Large Language Models (LLMs) directly on the ESP32-S3 (N16R8). By leveraging the internal 16MB Flash and 8MB PSRAM, this setup handles API requests and JSON parsing efficiently, turning your microcontroller into an AI-powered edge device.
 
