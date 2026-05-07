@@ -1,0 +1,39 @@
+# --- AI & Security ---
+# NEVER commit your actual API keys
+secrets.h
+config.h
+*.env
+
+# --- Compiled Binaries & Libraries ---
+# Keep the repo clean of those heavy ESP32 builds
+build/
+bin/
+out/
+.pio/
+.pioenvs/
+.piolibdeps/
+fp-info-cache
+*.elf
+*.bin
+*.map
+
+# --- IDE & System Junk ---
+# Arduino specific
+.vscdb/
+.vscode/
+*.swp
+*.bak
+*~
+
+# Linux/OS specific (Arch/Fedora)
+.DS_Store
+.directory
+.nfs*
+Thumbs.db
+
+# --- Python / Library Managers ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
